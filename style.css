@@ -1,0 +1,48 @@
+.main{
+    height: 84vh;
+    width: 60vw;
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 20px;
+    display: flex;
+    row-gap: 4vh;
+    flex-wrap: wrap;
+    position: relative;
+    left: 20vw;
+    top: 8vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    height: 60vh;
+    width: 50vw;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+    text-align: center;
+    padding-top: 29vh;
+}
+.box2{
+    height: 15vh;
+    width: 50vw;
+    position: relative;
+    left: 5vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    column-gap: 60px;
+    
+}
+.smallbox{
+    height: 10vh;
+    width: 15vw;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: larger;
+}
