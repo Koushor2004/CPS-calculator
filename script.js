@@ -7,14 +7,14 @@ ptr.addEventListener("dblclick",()=>{
     ptr.addEventListener("click",()=>{
         count++;
         document.getElementById("clicks").innerHTML=count;
-        // document.getElementById("cps").innerHTML=count/5;
+        document.getElementById("cps").innerHTML=count/5;
     })
 
-    setInterval(() => {
-        count2+=0.5;
-        document.getElementById("cps").innerHTML=(count/count2);
-        // count2+=0.1;
-    }, 500);
+    // setInterval(() => {
+    //     count2+=0.5;
+    //     document.getElementById("cps").innerHTML=(count/count2);
+    //     // count2+=0.1;
+    // }, 500);
     setTimeout(() => {
         
         alert(`Your CPS is ${count/5}`);
